@@ -1,8 +1,10 @@
 # NIST SP 800-171, SPRS Scoring, and CMMC Readiness: The AI Tech Pros Field Guide
 
-**Current as of September 2026. Plain English, zero fluff.**
+**Revision 1.1.0, September 29, 2026. Plain English, zero fluff.**
 
 *Prepared by AI Tech Pros, Inc. Nehemiah Harvard, CEO.*
+
+> **Staleness warning.** This guide is current as of September 2026. Cybersecurity regulation moves: before you rely on it, confirm nothing material has changed by checking DoD announcements, the current 32 CFR Part 170, and the NIST SP 800-171 revision in force. For updates, subscribe to The Readiness Room (free): https://thereadinessroom.substack.com
 
 ---
 
@@ -130,6 +132,27 @@ The Readiness Sprint installs this framework in your company in one day:
 - **Sustain.** The cadence that keeps your score current, your evidence fresh, and your POA&Ms on schedule.
 
 You leave with the operating system, not a report.
+
+The companion files in this repo run the system day to day: `evidence-index.csv` (map every control to evidence), `scoring-validation-checklist.md` (assess without guessing), `remediation-tracker.csv` (prioritize and sustain the POA&Ms), and `independent-review-gate.md` (the review that must pass before attestation).
+
+---
+
+## Before you post to SPRS
+
+Do not post a score to SPRS until four things are true:
+
+1. The evidence index is complete for all 110 controls, and every Implemented control has evidence.
+2. The scoring validation checklist passes.
+3. The independent review gate passes, with a signed review record.
+4. Management has attested to the score in writing.
+
+Posting a score you cannot evidence is a False Claims Act risk. Announced DOJ cyber settlements already top $16 million across five cases, and your own people can file the case and take 15 to 30 percent.
+
+---
+
+## What this guide is not
+
+This guide and the MAPS framework are an operating system, not a certification. They do not make you CMMC certified, they do not replace a C3PAO assessment, and they are not legal advice. If you want MAPS installed in your company in one day, that is the AI Tech Pros Readiness Sprint: https://aitechpros.ai
 
 ---
 
