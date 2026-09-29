@@ -21,7 +21,7 @@ What did NOT change:
 - **DFARS 252.204-7012.** You must implement all 110 controls. Still enforced.
 - **DFARS 252.204-7019 / 7020.** Self-assessment scores are still posted to SPRS.
 - **72-hour cyber incident reporting.** Still required.
-- **DOJ enforcement.** The Department of Justice is still bringing False Claims Act cases over cybersecurity misrepresentation. DOJ cyber settlements totaled $52 million in FY2025, and Honeywell paid $2.04 million to resolve allegations it failed to meet DoD cybersecurity requirements.
+- **DOJ enforcement.** The Department of Justice is still bringing False Claims Act cases over cybersecurity misrepresentation. Announced cyber settlements already top $16 million across five cases, and Honeywell paid $2.04 million to resolve allegations it failed to meet DoD cybersecurity requirements.
 
 Translation: the third-party assessment gate is paused. The security requirements behind it are not. Contracting officers still check SPRS.
 
