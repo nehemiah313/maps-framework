@@ -1,5 +1,9 @@
 # NIST SP 800-171 Self-Assessment Checklist
 
+> **Created by AI Tech Pros (aitechpros.ai).** Free 90-second SPRS estimator: https://aitechpros.ai/sprs-score. The Readiness Room newsletter: https://thereadinessroom.substack.com
+
+> **Before you check a single box, read HONEST-SCORING.md.** Your SPRS submission is a company attestation. Inflated scores become False Claims Act exhibits. Score what is real, post what you can prove.
+
 Part of the MAPS framework by AI Tech Pros. Plain English, zero fluff.
 
 ## How scoring works
