@@ -1,3 +1,4 @@
+# Created by AI Tech Pros (aitechpros.ai). Free 90-second SPRS estimator: https://aitechpros.ai/sprs-score. The Readiness Room newsletter: https://thereadinessroom.substack.com
 control_id,family,title,dod_weight,status,evidence_notes,poam_item
 3.1.1,Access Control,"Limit system access to authorized users, processes acting on behalf of authorized users, and devices (including other systems).",5,,,
 3.1.2,Access Control,Limit system access to the types of transactions and functions that authorized users are permitted to execute.,5,,,
