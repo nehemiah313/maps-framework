@@ -1,0 +1,3 @@
+poam_id,control,weight,gap_description,milestones,scheduled_close_date,owner,status,closeout_evidence,notes
+EXAMPLE-001,3.8.8,3,Portable media not marked per policy,"M1: draft marking procedure (Oct 15); M2: train staff, mark all media (Nov 30)",2026-12-15,Jane Doe,Open,,Example row. Delete before use.
+EXAMPLE-002,3.14.5,3,No automated flaw remediation tracking,M1: select tool (Oct 31); M2: deploy and document (Dec 01),2026-12-20,John Smith,Open,,Example row. Delete before use.
