@@ -1,18 +1,28 @@
-<!DOCTYPE html><html><head><meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>NIST SP 800-171, SPRS Scoring, and CMMC Readiness: The AI Tech Pros Field Guide</title>
 <style>
-body{font-family:Georgia,serif;max-width:720px;margin:40px auto;padding:0 24px;color:#1a1a1a;line-height:1.6;font-size:15px}
-h1{font-size:26px;border-bottom:3px solid #0A1A2F;padding-bottom:10px}
-h2{font-size:20px;color:#0A1A2F;margin-top:36px;border-bottom:1px solid #ddd;padding-bottom:6px}
-table{border-collapse:collapse;width:100%;margin:16px 0;font-size:13.5px}
-th,td{border:1px solid #bbb;padding:8px 10px;text-align:left;vertical-align:top}
-th{background:#0A1A2F;color:#fff}
-tr:nth-child(even){background:#f4f6f8}
-code{background:#eef;font-size:13px;padding:1px 5px;border-radius:3px}
-hr{border:none;border-top:2px solid #0A1A2F;margin:30px 0}
-strong{color:#0A1A2F}
-</style></head><body><h1>NIST SP 800-171, SPRS Scoring, and CMMC Readiness: The AI Tech Pros Field Guide</h1>
-<p><strong>Current as of September 2026. Plain English, zero fluff.</strong></p>
+body { font-family: Georgia, serif; max-width: 760px; margin: 2em auto; padding: 0 1.5em; line-height: 1.6; color: #1a1a1a; }
+h1 { font-size: 1.6em; border-bottom: 2px solid #1a1a1a; padding-bottom: .3em; }
+h2 { font-size: 1.25em; margin-top: 1.8em; color: #0b3d62; }
+table { border-collapse: collapse; width: 100%; margin: 1em 0; font-size: .92em; }
+th, td { border: 1px solid #999; padding: .45em .6em; text-align: left; }
+th { background: #eef3f7; }
+blockquote { border-left: 4px solid #b58900; background: #fffbe8; margin: 1em 0; padding: .7em 1em; }
+hr { border: none; border-top: 1px solid #ccc; margin: 2em 0; }
+.footer { margin-top: 3em; font-size: .85em; color: #555; border-top: 1px solid #ccc; padding-top: 1em; }
+@media print { body { max-width: 100%; } }
+</style>
+</head>
+<body>
+<h1>NIST SP 800-171, SPRS Scoring, and CMMC Readiness: The AI Tech Pros Field Guide</h1>
+<p><strong>Revision 1.1.0, September 29, 2026. Plain English, zero fluff.</strong></p>
 <p><em>Prepared by AI Tech Pros, Inc. Nehemiah Harvard, CEO.</em></p>
+<blockquote>
+<p><strong>Staleness warning.</strong> This guide is current as of September 2026. Cybersecurity regulation moves: before you rely on it, confirm nothing material has changed by checking DoD announcements, the current 32 CFR Part 170, and the NIST SP 800-171 revision in force. For updates, subscribe to The Readiness Room (free): https://thereadinessroom.substack.com</p>
+</blockquote>
 <hr />
 <h2>The bottom line</h2>
 <p>CMMC Level 2 is NIST SP 800-171 Rev. 2. Same 110 requirements. No additions, no subtractions. Your SPRS score is the number contracting officers check before award. Everything else is commentary.</p>
@@ -195,6 +205,20 @@ strong{color:#0A1A2F}
 <li><strong>Sustain.</strong> The cadence that keeps your score current, your evidence fresh, and your POA&amp;Ms on schedule.</li>
 </ul>
 <p>You leave with the operating system, not a report.</p>
+<p>The companion files in this repo run the system day to day: <code>evidence-index.csv</code> (map every control to evidence), <code>scoring-validation-checklist.md</code> (assess without guessing), <code>remediation-tracker.csv</code> (prioritize and sustain the POA&amp;Ms), and <code>independent-review-gate.md</code> (the review that must pass before attestation).</p>
+<hr />
+<h2>Before you post to SPRS</h2>
+<p>Do not post a score to SPRS until four things are true:</p>
+<ol>
+<li>The evidence index is complete for all 110 controls, and every Implemented control has evidence.</li>
+<li>The scoring validation checklist passes.</li>
+<li>The independent review gate passes, with a signed review record.</li>
+<li>Management has attested to the score in writing.</li>
+</ol>
+<p>Posting a score you cannot evidence is a False Claims Act risk. Announced DOJ cyber settlements already top $16 million across five cases, and your own people can file the case and take 15 to 30 percent.</p>
+<hr />
+<h2>What this guide is not</h2>
+<p>This guide and the MAPS framework are an operating system, not a certification. They do not make you CMMC certified, they do not replace a C3PAO assessment, and they are not legal advice. If you want MAPS installed in your company in one day, that is the AI Tech Pros Readiness Sprint: https://aitechpros.ai</p>
 <hr />
 <h2>What to watch</h2>
 <ul>
@@ -209,4 +233,11 @@ strong{color:#0A1A2F}
 <li>32 CFR Part 170, including 170.21 (POA&amp;M and Conditional status) and 170.24 (scoring methodology)</li>
 <li>DFARS 252.204-7012, 252.204-7019, 252.204-7020, 252.204-7021; FAR 52.204-21</li>
 <li>DoD CIO memorandum, July 13, 2026 (Phase 2 suspension and reform review)</li>
-</ul></body></html>
+</ul>
+<div class="footer">
+MAPS (Map, Assess, Prioritize, Sustain) by AI Tech Pros, Inc., Augusta, GA. https://aitechpros.ai<br>
+Framework updates: The Readiness Room, https://thereadinessroom.substack.com (free)<br>
+Revision 1.1.0, September 29, 2026. MIT License.
+</div>
+</body>
+</html>
